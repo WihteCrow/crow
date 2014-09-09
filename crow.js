@@ -12,6 +12,7 @@
         if(this instanceof Crow){
             this.version = '0.1';
             this.author = 'Crow';
+            this.wife = 'yun';
             this.time = '2014/9/10';
         }else{
             return new Crow();
